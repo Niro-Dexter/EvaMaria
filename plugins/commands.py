@@ -21,7 +21,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('Search කරන්න 🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Updates ✅', url='https://t.me/NFLK_Updates'),
+            InlineKeyboardButton('Updates ✅', url='https://t.me/Bots_LK'),
             InlineKeyboardButton('Support ✅ ', url='https://t.me/NFLK_Support')
             ],[
             InlineKeyboardButton('About ℹ️', callback_data='about')
@@ -63,7 +63,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('Search කරන්න 🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Updates ✅', url='https://t.me/NFLK_Updates'),
+            InlineKeyboardButton('Updates ✅', url='https://t.me/Bots_LK'),
             InlineKeyboardButton('Support ✅', url='https://t.me/NFLK_Support')
             ],[
             InlineKeyboardButton('About ℹ️', callback_data='about')
