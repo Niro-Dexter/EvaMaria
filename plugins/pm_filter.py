@@ -364,7 +364,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Search කරන්න 🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Updates ✅', url='https://t.me/NFLK_Updates'),
+            InlineKeyboardButton('Updates ✅', url='https://t.me/Bots_LK'),
             InlineKeyboardButton('Support ✅', url='https://t.me/NFLK_Support')
             ],[
             InlineKeyboardButton('About ℹ️', callback_data='about')
@@ -394,7 +394,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🔰 NFLK JOY 🔰', url='https://t.me/nflkjoy_bot'),
+            InlineKeyboardButton('🔰 JOY 🔰', url='https://t.me/nflkjoy_bot'),
             InlineKeyboardButton('Help 🆘️', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
